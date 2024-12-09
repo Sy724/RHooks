@@ -3,7 +3,7 @@
 
 ## 安装
 ```
-npm install rhooks
+npm install b-hooks-core
 ```
 
 ## Hooks列表
@@ -11,7 +11,7 @@ npm install rhooks
 ### useRequest：
 #### 使用
 ```
-import { useRequest } from 'rhooks'
+import { useRequest } from 'b-hooks-core'
 ```
 ``` ts
 const { data, loading, run } = useRequest(() => {
@@ -35,7 +35,7 @@ const { data, loading, run } = useRequest(() => {
 ### useVirtual:
 #### 使用
 ```
-import { useVirtual } from 'rhooks'
+import { useVirtual } from 'b-hooks-core'
 ```
 ``` ts
 const { state, wrapperRef, scrollRef } = useVirtual({
