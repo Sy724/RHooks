@@ -1,18 +1,10 @@
 # RHooks
 基于React 19 的 Hooks 集合
 
-## 安装
-```
-npm install b-hooks-core
-```
-
 ## Hooks列表
 
 ### useRequest：
 #### 使用
-```
-import { useRequest } from 'b-hooks-core'
-```
 ``` ts
 const { data, loading, run } = useRequest(() => {
   return new Promise((resolve) => {
@@ -34,9 +26,6 @@ const { data, loading, run } = useRequest(() => {
 
 ### useVirtual:
 #### 使用
-```
-import { useVirtual } from 'b-hooks-core'
-```
 ``` ts
 const { state, wrapperRef, scrollRef } = useVirtual({
   itemHeight: 50,
